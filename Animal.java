@@ -1,13 +1,16 @@
 public class Animal {
 
+    // variables
     public String name;
     public String species;
 
+    // constructor
     public Animal(String name, String species){
         this.name = name;
         this.species = species;
     }
 
+    // methods
     public String getName(){
         return name;
     }
